@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+  font: normal 100%/1.5 serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #d05c2e;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.grain-left {
+  float: left;
+  width: 40px;
+}
+
+.grain-right {
+  float: right;
+  width: 40px;
+}
+
+div {
+  padding: .5rem 0 0;
+}
+
+li {
+  list-style: none;
+  font-size: 1.125rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
