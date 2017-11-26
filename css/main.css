@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Merriweather, serif;
-  font: normal 100%/1.5 serif;
+  font: normal 100%/1.5 Merriweather, serif;
 }
 
 *, *::before, *::after {
@@ -11,12 +10,24 @@ html {
 header {
   background-color: #d05c2e;
   color: white;
+  padding: 1em 0;
+}
+
+body {
+  margin: 0;
 }
 
 h1 {
   text-align: center;
   font-size: 2rem;
   margin: 0;
+}
+
+.nav {
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  padding: 0;
 }
 
 .grain-left {
@@ -29,16 +40,19 @@ h1 {
   width: 40px;
 }
 
-div {
-  padding: .5rem 0 0;
-}
-
-li {
-  list-style: none;
+.nav li {
+  display: inline-block;
   font-size: 1.125rem;
 }
 
-a {
+.nav a {
   text-decoration: none;
-  color: white;
+  color: #fff;
+  display: inline-block;
+  padding: .5em 0 0;
+  border-radius: 4px;
+}
+
+.nav a:hover {
+  background-color: #a63f38;
 }
